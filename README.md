@@ -1,6 +1,6 @@
 # 本地 AI 智能文献与图像管理助手
 
-基于多模态神经网络的本地智能助手，实现文献和图像的语义搜索与自动分类。
+实现了基于多模态神经网络的本地智能助手，实现文献和图像的语义搜索与自动分类。
 
 ## 项目简介
 
@@ -46,7 +46,13 @@ python main.py add_paper /path/to/paper.pdf --topics "CV,NLP"
 ```
 **示例**:
 ![add_paper](./show/add_paper.png)
-![add_paper](./show/add_paper.mp4)
+
+
+https://github.com/user-attachments/assets/848393d3-9a40-405c-afc4-1088cda20fd3
+
+
+
+
 
 **说明**: 
 - 系统会提取 PDF 内容，自动判断其属于哪个主题（CV/NLP），并移动到对应文件夹
@@ -59,7 +65,13 @@ python main.py organize_papers /path/to/messy_folder --topics "CV,NLP"
 ```
 **示例**:
 ![organize_papers](./show/organize_papers.png)
-![organize_papers](./show/organize_papers.mp4)
+
+
+
+https://github.com/user-attachments/assets/4134eb8a-53b6-4d97-b315-f2fbc09db2a3
+
+
+
 
 **说明**: 
 - 自动扫描指定文件夹中所有 PDF 文件
@@ -73,7 +85,11 @@ python main.py search_paper "xxxx"
 ```
 **示例**:
 ![search_paper](./show/search_paper.png)
-![search_paper](./show/search_paper.mp4)
+
+
+https://github.com/user-attachments/assets/9bb35530-fc49-4b0e-94ee-aa05e76066bc
+
+
 
 ### 4. 添加图像到索引
 
@@ -82,7 +98,11 @@ python main.py add_image /path/to/sunset.jpg
 ```
 **示例**:
 ![add_image](./show/add_image.png)
-![add_image](./show/add_image.mp4)
+
+
+
+https://github.com/user-attachments/assets/aa179274-5194-450e-9728-a6136aeda098
+
 
 ### 5. 批量索引图像文件夹
 
@@ -91,7 +111,11 @@ python main.py index_images /path/to/image_folder
 ```
 **示例**:
 ![index_images](./show/index_images.png)
-![index_images](./show/index_images.mp4)
+
+
+https://github.com/user-attachments/assets/e87f6d43-e40a-4414-929f-64db25d74e1e
+
+
 
 ### 6. 以文搜图
 
@@ -101,7 +125,11 @@ python main.py search_image "cup"
 
 **示例**:
 ![search_image](./show/search_image.png)
-![search_image](./show/search_image.mp4)
+
+
+https://github.com/user-attachments/assets/c49701fe-c9f7-4e9f-83b8-6d019f72ca21
+
+
 
 ### 7. 更新论文索引
 
@@ -110,7 +138,11 @@ python main.py sync_papers
 ```
 **示例**:
 ![sync_papers](./show/sync_papers.png)
-![sync_papers](./show/sync_papers.mp4)
+
+
+https://github.com/user-attachments/assets/305d9ac5-ccf1-4bc8-9de0-fd90248f8248
+
+
 
 **说明**: 
 - 由于会存在索引错误的情况，因此支持将文件夹中的论文进行调整和更新
